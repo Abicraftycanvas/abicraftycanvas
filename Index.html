@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crafty2Canvas</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin:0;
+      background: linear-gradient(120deg,#fceabb,#f8b500);
+      color:#222;
+    }
+
+    header {
+      background: rgba(255,255,255,0.9);
+      padding:20px;
+      text-align:center;
+      box-shadow:0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      margin:0 15px;
+      text-decoration:none;
+      color:#222;
+      font-weight:bold;
+    }
+
+    nav a:hover {color:#d14b00;}
+
+    .hero {
+      padding:70px 20px;
+      text-align:center;
+    }
+
+    .hero h1 {
+      font-size:3.2rem;
+      margin-bottom:10px;
+      color:#fff;
+      text-shadow:2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .hero p {
+      font-size:1.2rem;
+      color:#fff;
+    }
+
+    .gallery {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:25px;
+      padding:50px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.95);
+      padding:30px;
+      border-radius:20px;
+      box-shadow:0 6px 15px rgba(0,0,0,0.15);
+      text-align:center;
+      font-size:1.1rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align:center;
+      padding:20px;
+      background: rgba(255,255,255,0.9);
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Crafty2Canvas • Art Portfolio</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Crafty2Canvas</h1>
+    <p>An artistic space for paintings, handmade creativity, and colorful inspiration.</p>
+  </section>
+
+  <section class="gallery">
+    <div class="card">🎨 Artwork 1</div>
+    <div class="card">🖌️ Artwork 2</div>
+    <div class="card">🌈 Artwork 3</div>
+    <div class="card">✨ Artwork 4</div>
+  </section>
+
+  <footer>
+    <p>© 2026 Crafty2Canvas | Art Portfolio</p>
+  </footer>
+</body>
+</html>
