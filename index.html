@@ -104,3 +104,347 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery • Crafty Canvas</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: linear-gradient(120deg, #fceabb, #f8b500);
+      color: #222;
+    }
+
+    header {
+      background: rgba(255,255,255,0.9);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d14b00;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 50px 0 10px;
+      font-size: 3rem;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: white;
+      font-size: 1.2rem;
+      margin-bottom: 50px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .art-card {
+      background: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .art-card:hover {
+      transform: scale(1.05);
+    }
+
+    .art-image {
+      height: 200px;
+      background: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: #666;
+    }
+
+    .art-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .art-info h3 {
+      margin: 10px 0 5px;
+      font-size: 1.4rem;
+      color: #d14b00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.9);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Crafty Canvas • Art Portfolio</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Gallery</h1>
+  <p class="subtitle">A collection of my favorite artworks</p>
+
+  <section class="gallery">
+    <div class="art-card">
+      <div class="art-image">Image Placeholder</div>
+      <div class="art-info">
+        <h3>Sunset Over the Sea</h3>
+        <p>Oil Painting</p>
+      </div>
+    </div>
+
+    <div class="art-card">
+      <div class="art-image">Image Placeholder</div>
+      <div class="art-info">
+        <h3>Mountain Landscape</h3>
+        <p>Acrylic on Canvas</p>
+      </div>
+    </div>
+
+    <div class="art-card">
+      <div class="art-image">Image Placeholder</div>
+      <div class="art-info">
+        <h3>Portrait Study</h3>
+        <p>Watercolor</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Crafty Canvas | Art Portfolio</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About • Crafty Canvas</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: linear-gradient(120deg, #fceabb, #f8b500);
+      color: #222;
+    }
+
+    header {
+      background: rgba(255,255,255,0.9);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d14b00;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 3rem;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .about-container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: rgba(255,255,255,0.95);
+      padding: 50px;
+      border-radius: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .about-container h2 {
+      color: #d14b00;
+      font-size: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.9);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Crafty Canvas • Art Portfolio</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>About Me</h1>
+
+  <section class="about-container">
+    <h2>Hello, I’m an Artist</h2>
+    <p>
+      Welcome to Crafty Canvas! This is my creative space where I share paintings,
+      handmade art, and colorful inspirations.
+    </p>
+
+    <h2>Mediums & Specialties</h2>
+    <p>Watercolor • Acrylic • Oil Painting • Portraits • Landscapes</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Crafty Canvas | Art Portfolio</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact • Crafty Canvas</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: linear-gradient(120deg, #fceabb, #f8b500);
+      color: #222;
+    }
+
+    header {
+      background: rgba(255,255,255,0.9);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d14b00;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 3rem;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .contact-box {
+      max-width: 700px;
+      margin: 60px auto;
+      background: rgba(255,255,255,0.95);
+      padding: 50px;
+      border-radius: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      margin: 12px;
+      padding: 15px 25px;
+      background: #fff;
+      border-radius: 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .contact-links a:hover {
+      transform: scale(1.05);
+      color: #d14b00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.9);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Crafty Canvas • Art Portfolio</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Contact</h1>
+
+  <section class="contact-box">
+    <h2>Let’s Connect</h2>
+    <p>
+      Thank you for visiting Crafty Canvas.
+      Feel free to reach out for collaborations or commissions!
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:abi.magesh93@gmail.com">📩 Email Me</a>
+      <a href="https://instagram.com/" target="_blank">📷 Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Crafty Canvas | Art Portfolio</p>
+  </footer>
+</body>
+</html>
